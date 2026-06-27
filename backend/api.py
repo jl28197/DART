@@ -83,6 +83,7 @@ class SensitivityResponse(BaseModel):
 # ── Endpoints ──────────────────────────────────────────────────────────────────
 
 @app.get("/")
+@app.head("/")
 def health_check():
     return {"status": "DART API is running"}
 
