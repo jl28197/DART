@@ -4,7 +4,7 @@
 
 DART uses Monte Carlo simulation to model personal debt repayment under
 realistic uncertainty. Rather than producing a single deterministic payoff
-date, it runs 2,500 independent simulations of your repayment journey —
+date, it runs 5,000 independent simulations of your repayment journey —
 each with slightly different conditions — and reports the distribution of
 outcomes. The result is a probability estimate rather than a prediction.
 
@@ -136,7 +136,7 @@ auditable, and grounded in the data the user actually provides.
 
 ## Interpreting Results
 
-**Probability estimate:** The percentage of 2,500 simulation runs that
+**Probability estimate:** The percentage of 5,000 simulation runs that
 achieved debt-free status within your target timeframe. This is an empirical
 frequency, not a theoretical formula — it is literally the count of
 successful runs divided by total runs.
