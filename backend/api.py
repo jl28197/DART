@@ -80,7 +80,7 @@ class SensitivityResponse(BaseModel):
 
 @app.get("/")
 def health_check():
-    return {"status": "DebtPath API is running"}
+    return {"status": "DART API is running"}
 
 
 @app.post("/api/simulate", response_model=SimulateResponse)
