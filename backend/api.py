@@ -16,7 +16,11 @@ app = FastAPI(title="D.A.R.T API")
 # backend (localhost:8000). Without this, the browser blocks the request.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],   # frontend dev server
+    allow_origins=[
+        "http://localhost:5173",
+        "https://dart-5184.onrender.com",
+        "https://dart-ab66p4qvd-jl281972.vercel.app",
+        ],
     allow_methods=["*"],
     allow_headers=["*"],
 )
