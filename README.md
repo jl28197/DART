@@ -3,7 +3,6 @@
 > A web application that models personal debt repayment strategies and gives you a probabilistic estimate of reaching your debt-free goal.
 
 **[Live Demo](https://dart-henna.vercel.app)**  
-**[GitHub](https://github.com/j28197/DART)**
 
 ---
 
